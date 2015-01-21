@@ -1,5 +1,7 @@
-package classesandobjects;
+package testclasses.classesandobjects;
 
+import classesandobjects.GoogleHomePage;
+import classesandobjects.GoogleSearchResultPage;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -15,6 +17,7 @@ public class TestClass {
         firefoxDriver.get("http://www.google.com/");
 
         GoogleHomePage googleHomePage = new GoogleHomePage();
+
         System.out.println("##############################");
         System.out.println("##############################");
         System.out.println("Test Name is: "+ GoogleHomePage.getTestName());
