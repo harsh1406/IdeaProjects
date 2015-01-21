@@ -43,7 +43,6 @@ public class TestClass {
         String buttonLabel = googleHomePage.getSearchButtonLabel(firefoxDriver);
         System.out.println("return value is" + buttonLabel);
 
-        GoogleSearchResultPage googleSearchResultPage = new GoogleSearchResultPage(firefoxDriver);
         System.out.println("##############################");
         System.out.println("##############################");
         System.out.println("Test data 1 is: " + GoogleSearchResultPage.getTestData1());
