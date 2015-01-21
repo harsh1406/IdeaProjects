@@ -1,4 +1,4 @@
-package testclasses.classesandobjects;
+package testclasses.classesandobjects.classesandobjects;
 
 import classesandobjects.GoogleHomePage;
 import classesandobjects.GoogleSearchResultPage;

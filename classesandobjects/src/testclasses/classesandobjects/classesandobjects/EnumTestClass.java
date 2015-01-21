@@ -1,11 +1,9 @@
-package testclasses.classesandobjects;
+package testclasses.classesandobjects.classesandobjects;
 
 import classesandobjects.Country;
 import classesandobjects.GoogleHomePage;
 import classesandobjects.ModifiedCountry;
-import javafx.beans.property.SimpleObjectProperty;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import sun.tools.util.ModifierFilter;
 
 import java.util.concurrent.TimeUnit;
 
